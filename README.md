@@ -26,44 +26,49 @@ To run this project in **Google Colab**, follow these steps:
    [Open Tele Feedback in Google Colab](https://colab.research.google.com/github/ajitonelsonn/TELE_Feedback/blob/main/Llama_Chatbot_with_Sentiment_Analysis_Integration_TL.ipynb)
 
 2. **Change the Runtime:**
+
    - Once the notebook is opened, go to the top menu and click **Runtime > Change runtime type**.
    - Select **T4 GPU** as the hardware accelerator to optimize performance, then click **Save**.
 
 3. **Update Hugging Face Token:**
+
    - In the notebook, find the code cell where the Hugging Face token is required (near the login section).
    - Replace `"your_huggingface_token_here"` with your own Hugging Face token. You can get the token from your Hugging Face account by visiting [huggingface.co](https://huggingface.co/).
-   
+
    ```python
    from huggingface_hub import login
    login(token="your_huggingface_token_here")
 
+   ```
 
 4. Run the notebook or to launch the chatbot and feedback system.
 
 ## Usage
 
 1. **Launching the Chatbot**:
-    - Run the script to start the chatbot interface.
-    - Users can input text to chat with the bot, and the bot will generate responses based on pre-trained language models.
+
+   - Run the script to start the chatbot interface.
+   - Users can input text to chat with the bot, and the bot will generate responses based on pre-trained language models.
 
 2. **Sentiment Analysis**:
-    - Each user input will be analyzed to determine the sentiment: positive, neutral, or negative.
+
+   - Each user input will be analyzed to determine the sentiment: positive, neutral, or negative.
 
 3. **Storing Feedback**:
-    - After each interaction, feedback (user input, chatbot response, sentiment) is automatically saved to an SQLite database.
+
+   - After each interaction, feedback (user input, chatbot response, sentiment) is automatically saved to an SQLite database.
 
 4. **Visualizing Feedback**:
-    - You can view feedback data in tabular format or as a chart showing sentiment trends by running the respective Gradio interfaces.
+   - You can view feedback data in tabular format or as a chart showing sentiment trends by running the respective Gradio interfaces.
 
 ## Screenshots
 
 ### Chatbot Interface
+
 ![Chatbot](./screenshots/chatbot.png)
 
-### Feedback Data
-![Feedback Data](./screenshots/feedback_data.png)
-
 ### Sentiment Trend
+
 ![Sentiment Trend](./screenshots/sentiment_trend.png)
 
 ## Future Improvements
@@ -76,3 +81,12 @@ To run this project in **Google Colab**, follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
+
+## **About the Author**
+
+**Ajito Nelson** is a passionate **Big Data Engineer** and **AI Enthusiast**. With a deep interest in data-driven solutions and artificial intelligence, Ajito is dedicated to leveraging cutting-edge technology to solve complex challenges. His expertise spans across big data infrastructure, machine learning, and AI applications in various domains.
+
+You can connect with me on [LinkedIn](https://www.linkedin.com/in/ajitonelson/).
+
+![Aji To Nelson](https://media.licdn.com/dms/image/v2/C5603AQENYxgypX_VSg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1659079610353?e=1732752000&v=beta&t=H5SDXNRWwwIviJ1lP8muSj9Xb2Aa0rCklbaZ0Hgjnf8)
