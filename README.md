@@ -1,6 +1,16 @@
 # TELE Feedback
 
-Tele Feedback is a chatbot designed for telecommunications company in Timor-Leste. This project allows users to provide feedback and interact with an AI chatbot. It integrates **sentiment analysis** to gauge the tone of customer feedback and stores the data for further analysis, helping the company better understand customer sentiment. This project is part of [LLM Foundations with Python on stackup.dev](https://earn.stackup.dev/campaigns/llm-foundations-with-python-2162)
+Tele Feedback is a chatbot designed for telecommunications companies in Timor-Leste. This project allows users to provide feedback and interact with an AI chatbot. It integrates **sentiment analysis** to gauge the tone of customer feedback and stores the data for further analysis, helping the company better understand customer sentiment. This project is part of [LLM Foundations with Python on stackup.dev](https://earn.stackup.dev/campaigns/llm-foundations-with-python-2162).
+
+---
+
+🎉 𝐄𝐱𝐜𝐢𝐭𝐢𝐧𝐠 𝐍𝐞𝐰𝐬! 🎉
+
+I’m thrilled to share that I’ve successfully completed a bounty challenge on StackUp and earned a $20 𝒓𝒆𝒘𝒂𝒓𝒅! 💸 The challenge involved enhancing a Llama chatbot by integrating sentiment analysis using Hugging Face Transformers, allowing the bot to adjust responses based on user sentiment. It was an incredible learning experience working with Large Language Models (LLMs) and furthering my skills in chatbot development.
+
+Check out my LinkedIn post about the accomplishment: [LinkedIn](https://www.linkedin.com/posts/ajitonelson_ai-chatbots-llms-activity-7249259914362019840-2-T-?utm_source=share&utm_medium=member_desktop)
+
+---
 
 ## Features
 
@@ -38,10 +48,9 @@ To run this project in **Google Colab**, follow these steps:
    ```python
    from huggingface_hub import login
    login(token="your_huggingface_token_here")
-
    ```
 
-4. Run the notebook or to launch the chatbot and feedback system.
+4. Run the notebook to launch the chatbot and feedback system.
 
 ## Usage
 
@@ -59,6 +68,7 @@ To run this project in **Google Colab**, follow these steps:
    - After each interaction, feedback (user input, chatbot response, sentiment) is automatically saved to an SQLite database.
 
 4. **Visualizing Feedback**:
+
    - You can view feedback data in tabular format or as a chart showing sentiment trends by running the respective Gradio interfaces.
 
 ## Screenshots
