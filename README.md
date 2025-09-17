@@ -95,8 +95,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## **About the Author**
 
-**Ajito Nelson** is a passionate **Big Data Engineer** and **AI Enthusiast**. With a deep interest in data-driven solutions and artificial intelligence, Ajito is dedicated to leveraging cutting-edge technology to solve complex challenges. His expertise spans across big data infrastructure, machine learning, and AI applications in various domains.
-
-You can connect with me on [LinkedIn](https://www.linkedin.com/in/ajitonelson/).
-
-![Aji To Nelson](https://media.licdn.com/dms/image/v2/C5603AQENYxgypX_VSg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1659079610353?e=1732752000&v=beta&t=H5SDXNRWwwIviJ1lP8muSj9Xb2Aa0rCklbaZ0Hgjnf8)
+**Ajito Nelson** is a passionate **Big Data Engineer** and **AI Enthusiast**. 
