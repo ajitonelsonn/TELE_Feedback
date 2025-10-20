@@ -92,7 +92,3 @@ To run this project in **Google Colab**, follow these steps:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## **About the Author**
-
-**Ajito Nelson** is a passionate **Big Data Engineer** and **AI Enthusiast**. 
