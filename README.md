@@ -81,11 +81,6 @@ To run this project in **Google Colab**, follow these steps:
 
 ![Sentiment Trend](./screenshots/sentiment_trend.png)
 
-## Future Improvements
-
-- Add multi-language support for the chatbot.
-- Improve the sentiment analysis by training a domain-specific model.
-- Implement an admin panel to review and manage feedback.
 
 ## License
 
